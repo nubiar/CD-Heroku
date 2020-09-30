@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Olá mundo!"
+    return "Aula Heroku 30-09-2020. Nubia Rodrigues"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
